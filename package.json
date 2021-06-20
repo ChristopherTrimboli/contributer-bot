@@ -1,0 +1,25 @@
+{
+  "name": "contributer-bot",
+  "version": "1.0.0",
+  "description": "Tired of maintaining an active Github just to land job interviews? Do you want to look like a productive coder without doing any work? Exhausted by contribution graph psychological competitive brainwashing? Welcome to contributer-bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherTrimboli/contributer-bot.git"
+  },
+  "author": "Christopher Trimboli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristopherTrimboli/contributer-bot/issues"
+  },
+  "homepage": "https://github.com/ChristopherTrimboli/contributer-bot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "husky": "^6.0.0",
+    "node-cron": "^3.0.0"
+  }
+}
